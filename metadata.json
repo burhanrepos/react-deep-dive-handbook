@@ -1,0 +1,6 @@
+{
+  "name": "React Deep Dive Handbook",
+  "description": "An interactive, animated React handbook designed for senior frontend developers revising mechanisms, mental models, and performance optimizations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
