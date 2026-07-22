@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# React Deep Dive Handbook
 
-# Run and deploy your AI Studio app
+A React + Vite handbook app with interactive topic navigation, search filtering, and light/dark mode.
 
-This contains everything you need to run your app locally.
+The project is built with:
 
-View your app in AI Studio: https://ai.studio/apps/9c0b67a1-ad9c-49fe-9765-df6973a077c9
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- lucide-react icons
 
-## Run Locally
+## Local development
 
-**Prerequisites:**  Node.js
-
+**Prerequisite:** Node.js
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Start development server:
    `npm run dev`
+3. Open the URL shown in the terminal (default `http://localhost:3000`).
+
+## Build and preview
+
+- Build for production:
+  `npm run build`
+- Preview the production build locally:
+  `npm run preview`
+
+## Quality
+
+- Run TypeScript checks:
+  `npm run lint`
+
+## Deployment
+
+A GitHub Actions workflow is included at `.github/workflows/deploy.yml` to build the app and deploy the `dist` folder to GitHub Pages.
+
+## Notes
+
+- No runtime API key is required to run this app locally.
+- The app is fully client-side and does not depend on a backend server for the UI.
